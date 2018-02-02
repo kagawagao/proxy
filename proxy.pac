@@ -4,6 +4,7 @@
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;";
 
 var rules = [
+  ".appspot.com",
   "||2dbook.com",
   "||4tern.com",
   "|http:\/\/85.17.73.31\/",
